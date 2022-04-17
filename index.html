@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>画像拡大する機能</title>
+    <link rel="stylesheet" href="./style.css">
+    <script type="module" src="/main.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+
+      <div class="wrapper-image">
+        <img
+          id="first-image"
+          src="./live_season12.jpg"
+          alt="画像"
+          width="1920"
+          height="1080"
+        >
+      </div>
+      <div class="wrapper-image">
+        <img
+          src="./EldenRing.jpg"
+          alt="エルデンリング"
+          width="1920"
+          height="1080"
+        >
+      </div>
+
+      <div id="pop-up" class="pop-up">
+        <div id="overlay" class="overlay"></div>
+        <div id="pop-up-wrapper-image" class="pop-up-wrapper-image"></div>
+      </div>
+
+    </div>
+  </body>
+</html>
